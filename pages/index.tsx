@@ -2,8 +2,19 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import React , {useEffect} from 'react'
 const Home: NextPage = () => {
+  useEffect(() => {
+    if(typeof window !== "undefined"){
+      console.log('yse');
+      
+    }else{
+      console.log('====================================');
+      console.log('no');
+      console.log('====================================');
+    }
+  }, [])
+  
   return (
     <div className={styles.container}>
       <Head>
