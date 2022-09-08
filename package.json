@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next": "12.2.5",
     "@lottiefiles/lottie-interactivity": "0.1.4",
     "@lottiefiles/lottie-player": "1.0.3",
     "@next/bundle-analyzer": "^12.2.5",
@@ -16,10 +19,7 @@
     "@types/react-lottie": "1.2.5",
     "@types/throttle-debounce": "2.1.0",
     "lottie-web": "5.7.8",
-    "next": "12.2.5",
     "prop-types": "15.7.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "react-lottie": "1.2.3",
     "throttle": "1.0.3",
     "throttle-debounce": "3.0.1"
